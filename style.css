@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#red, #yellow, #cyan, #magenta, #purple, #blue, #green, #pink {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#red {
+    background:red;
+}
+
+#yellow {
+    background:yellow;
+}
+
+#cyan {
+    background:cyan;
+}
+
+#magenta {
+    background:magenta;
+}
+
+#purple {
+    background:purple;
+}
+
+#blue {
+    background:blue;
+}
+
+#green {
+    background:green;
+}
+
+#pink {
+    background:pink;
+}
