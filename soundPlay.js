@@ -32,7 +32,6 @@ document.addEventListener('click', function(event){
         sounds.yellowSound.play();
     } else if (event.target.id === 'cyan') {
         sounds.cyanSound.play();
-        click();
     } else if (event.target.id === 'magenta') {
         soundsmagentaSound.play();
     } else if (event.target.id === 'purple') {
