@@ -25,34 +25,23 @@ const sounds = {
     })
 };
 
-document.getElementById("red").addEventListener('click', function(){
-    sounds.redSound.play();
-});
-
-document.getElementById("yellow").addEventListener('click', function(){
-    sounds.yellowSound.play();
-});
-
-document.getElementById("cyan").addEventListener('click', function(){
-    sounds.cyanSound.play();
-});
-
-document.getElementById("magenta").addEventListener('click', function(){
-    sounds.magentaSound.play();
-});
-
-document.getElementById("purple").addEventListener('click', function(){
-    sounds.purpleSound.play();
-});
-
-document.getElementById("blue").addEventListener('click', function(){
-    sounds.blueSound.play();
-});
-
-document.getElementById("green").addEventListener('click', function(){
-    sounds.greenSound.play();
-});
-
-document.getElementById("pink").addEventListener('click', function(){
-    sounds.pinkSound.play();
+document.addEventListener('click', function(event){
+    if(event.target.id === 'red'){
+        sounds.redSound.play();
+    } else if (event.target.id === 'yellow') {
+        sounds.yellowSound.play();
+    } else if (event.target.id === 'cyan') {
+        sounds.cyanSound.play();
+        click();
+    } else if (event.target.id === 'magenta') {
+        soundsmagentaSound.play();
+    } else if (event.target.id === 'purple') {
+        sounds.purpleSound.play();
+    } else if (event.target.id === 'blue') {
+        sounds.blueSound.play();
+    } else if (event.target.id === 'green') {
+        sounds.greenSound.play();
+    } else if (event.target.id === 'pink') {
+        sounds.pinkSound.play();
+    }
 });
