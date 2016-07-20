@@ -43,5 +43,4 @@ document.addEventListener('click', function(event){
     } else if (event.target.id === 'pink') {
         sounds.pinkSound.play();
     }
-
 });

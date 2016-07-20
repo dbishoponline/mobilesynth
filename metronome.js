@@ -1,5 +1,4 @@
 document.getElementById('start').addEventListener('click', click);
-document.getElementById('staaaart').addEventListener('click', start);
 document.getElementById('stop').addEventListener('click', stop);
 
 var sound = new Howl({
