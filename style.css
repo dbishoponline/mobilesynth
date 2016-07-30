@@ -3,6 +3,11 @@ body, html {
     margin: 0;
 }
 
+h1 {
+    text-align: center;
+    line-height: 100px;
+}
+
 #red, #yellow, #cyan, #magenta, #purple, #blue, #green, #pink {
     width: 150px;
     height: 150px;
@@ -10,6 +15,7 @@ body, html {
     display: inline-block;
     margin: 10px;
 }
+
 
 #red {
     background:red;

@@ -26,14 +26,14 @@ const sounds = {
 };
 
 document.addEventListener('click', function(event){
-    if(event.target.id === 'red'){
+    if(event.target.id  === 'red'){
         sounds.redSound.play();
     } else if (event.target.id === 'yellow') {
         sounds.yellowSound.play();
     } else if (event.target.id === 'cyan') {
         sounds.cyanSound.play();
     } else if (event.target.id === 'magenta') {
-        soundsmagentaSound.play();
+        sounds.magentaSound.play();
     } else if (event.target.id === 'purple') {
         sounds.purpleSound.play();
     } else if (event.target.id === 'blue') {
@@ -41,6 +41,29 @@ document.addEventListener('click', function(event){
     } else if (event.target.id === 'green') {
         sounds.greenSound.play();
     } else if (event.target.id === 'pink') {
+        sounds.pinkSound.play();
+    }
+});
+
+document.addEventListener('keypress', function(event){
+    pressedKey = event.which;
+
+    console.log(event.which);
+    if(pressedKey == 113){
+        sounds.redSound.play();
+    } else if (pressedKey == 119) {
+        sounds.yellowSound.play();
+    } else if (pressedKey == 101) {
+        sounds.cyanSound.play();
+    } else if (pressedKey == 114) {
+        sounds.magentaSound.play();
+    } else if (pressedKey == 116) {
+        sounds.purpleSound.play();
+    } else if (pressedKey == 121) {
+        sounds.blueSound.play();
+    } else if (pressedKey == 117) {
+        sounds.greenSound.play();
+    } else if (pressedKey == 105) {
         sounds.pinkSound.play();
     }
 });
