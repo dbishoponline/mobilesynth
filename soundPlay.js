@@ -26,21 +26,21 @@ const sounds = {
 };
 
 document.addEventListener('click', function(event){
-    if(event.target.id  === 'red'){
+    if(event.target.id  === 'red' || event.target.id  === 'red-h1'){
         sounds.redSound.play();
-    } else if (event.target.id === 'yellow') {
+    } else if (event.target.id === 'yellow' || event.target.id  === 'yellow-h1') {
         sounds.yellowSound.play();
-    } else if (event.target.id === 'cyan') {
+    } else if (event.target.id === 'cyan' || event.target.id  === 'cyan-h1') {
         sounds.cyanSound.play();
-    } else if (event.target.id === 'magenta') {
+    } else if (event.target.id === 'magenta' || event.target.id  === 'magenta-h1') {
         sounds.magentaSound.play();
-    } else if (event.target.id === 'purple') {
+    } else if (event.target.id === 'purple' || event.target.id  === 'purple-h1') {
         sounds.purpleSound.play();
-    } else if (event.target.id === 'blue') {
+    } else if (event.target.id === 'blue' || event.target.id  === 'blue-h1') {
         sounds.blueSound.play();
-    } else if (event.target.id === 'green') {
+    } else if (event.target.id === 'green' || event.target.id  === 'green-h1') {
         sounds.greenSound.play();
-    } else if (event.target.id === 'pink') {
+    } else if (event.target.id === 'pink' || event.target.id  === 'pink-h1') {
         sounds.pinkSound.play();
     }
 });
