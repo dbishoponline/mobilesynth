@@ -23,5 +23,6 @@ function loadSample(sampleObj, callback) {
 function onSampleLoaded(event) {
     sounds.blackSound = new Howl({
         urls: [event.target.result]
-    })
+    });
+    document.getElementById('sampleInputInfoMessage').style.visibility = 'hidden';
 }

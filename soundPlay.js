@@ -26,6 +26,8 @@ const sounds = {
     blackSound: null
 };
 
+document.getElementById('sampleInputInfoMessage').style.visibility = 'hidden';
+
 document.addEventListener('click', function(event){
     if(event.target.id  === 'red' || event.target.id  === 'red-h1'){
         sounds.redSound.play();
@@ -44,6 +46,9 @@ document.addEventListener('click', function(event){
     } else if (event.target.id === 'pink' || event.target.id  === 'pink-h1') {
         sounds.pinkSound.play();
     } else if (event.target.id === 'square') {
+        if (sounds.blackSound === null){
+            document.getElementById('sampleInputInfoMessage').style.visibility = 'visible';
+        }
         sounds.blackSound.play();
     }
 });
