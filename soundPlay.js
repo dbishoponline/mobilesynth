@@ -57,7 +57,6 @@ document.addEventListener('click', function(event){
 document.addEventListener('keypress', function(event){
     pressedKey = event.which;
 
-    console.log(event.which);
     if(pressedKey == 113){
         sounds.redSound.play();
     } else if (pressedKey == 119) {
