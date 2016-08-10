@@ -52,3 +52,9 @@ h1:hover {
 #pink {
     background:pink;
 }
+
+#square {
+    width:150px;
+    height:150px;
+    background:black;
+}

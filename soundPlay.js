@@ -22,7 +22,8 @@ const sounds = {
     }),
     pinkSound: new Howl({
         urls: ['soundSamples/A/flash-3.mp3']
-    })
+    }),
+    blackSound: null
 };
 
 document.addEventListener('click', function(event){
@@ -42,6 +43,8 @@ document.addEventListener('click', function(event){
         sounds.greenSound.play();
     } else if (event.target.id === 'pink' || event.target.id  === 'pink-h1') {
         sounds.pinkSound.play();
+    } else if (event.target.id === 'square') {
+        sounds.blackSound.play();
     }
 });
 
