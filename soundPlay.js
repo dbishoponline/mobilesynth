@@ -48,8 +48,9 @@ document.addEventListener('click', function(event){
     } else if (event.target.id === 'square') {
         if (sounds.blackSound === null){
             document.getElementById('sampleInputInfoMessage').style.visibility = 'visible';
+        } else {
+            sounds.blackSound.play();
         }
-        sounds.blackSound.play();
     }
 });
 
