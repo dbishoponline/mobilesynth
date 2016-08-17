@@ -5,56 +5,29 @@ body, html {
 
 h1 {
     text-align: center;
-    line-height: 100px;
+    line-height: 60px;
+    color: white;
 }
 
-h1:hover {  
+h1:hover {
     cursor: default;
 }
 
-#red, #yellow, #cyan, #magenta, #purple, #blue, #green, #pink {
+#buttonA, #buttonB, #buttonC, #buttonD, #buttonE, #buttonF, #buttonG, #buttonH {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     display: inline-block;
     margin: 10px;
+    background-image: url("./images/button_default.png");
+    background-size: 150px;
+    background-repeat: no-repeat;
 }
 
-
-#red {
-    background:red;
+#buttonA:active, #buttonB:active, #buttonC:active, #buttonD:active, #buttonE:active, #buttonF:active, #buttonG:active, #buttonH:active {
+    background-image: url("./images/button_pressed.png");
 }
 
-#yellow {
-    background:yellow;
-}
-
-#cyan {
-    background:cyan;
-}
-
-#magenta {
-    background:magenta;
-}
-
-#purple {
-    background:purple;
-}
-
-#blue {
-    background:blue;
-}
-
-#green {
-    background:green;
-}
-
-#pink {
-    background:pink;
-}
-
-#square {
-    width:150px;
-    height:150px;
-    background:black;
+.col-md-1 {
+    width:250px;
 }
