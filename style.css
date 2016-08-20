@@ -13,7 +13,7 @@ h1:hover {
     cursor: default;
 }
 
-#buttonA, #buttonB, #buttonC, #buttonD, #buttonE, #buttonF, #buttonG, #buttonH {
+#buttonQ, #buttonW, #buttonE, #buttonA, #buttonS, #buttonD, #buttonZ, #buttonX, #buttonC {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -24,10 +24,6 @@ h1:hover {
     background-repeat: no-repeat;
 }
 
-#buttonA:active, #buttonB:active, #buttonC:active, #buttonD:active, #buttonE:active, #buttonF:active, #buttonG:active, #buttonH:active {
+#buttonQ:active, #buttonW:active, #buttonE:active, #buttonA:active, #buttonS:active, #buttonD:active, #buttonZ:active, #buttonX:active, #buttonC:active {
     background-image: url("./images/button_pressed.png");
-}
-
-.col-md-1 {
-    width:250px;
 }

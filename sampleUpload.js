@@ -41,14 +41,15 @@ window.addEventListener('load', onDocumentLoaded, false);
 
 function onDocumentLoaded() {
 
-    getSampleInputId('sampleInputButtonA').addEventListener('change', onChosenFileChange, false);
-    getSampleInputId('sampleInputButtonB').addEventListener('change', onChosenFileChange, false);
-    getSampleInputId('sampleInputButtonC').addEventListener('change', onChosenFileChange, false);
-    getSampleInputId('sampleInputButtonD').addEventListener('change', onChosenFileChange, false);
+    getSampleInputId('sampleInputButtonQ').addEventListener('change', onChosenFileChange, false);
+    getSampleInputId('sampleInputButtonW').addEventListener('change', onChosenFileChange, false);
     getSampleInputId('sampleInputButtonE').addEventListener('change', onChosenFileChange, false);
-    getSampleInputId('sampleInputButtonF').addEventListener('change', onChosenFileChange, false);
-    getSampleInputId('sampleInputButtonG').addEventListener('change', onChosenFileChange, false);
-    getSampleInputId('sampleInputButtonH').addEventListener('change', onChosenFileChange, false);
+    getSampleInputId('sampleInputButtonA').addEventListener('change', onChosenFileChange, false);
+    getSampleInputId('sampleInputButtonS').addEventListener('change', onChosenFileChange, false);
+    getSampleInputId('sampleInputButtonD').addEventListener('change', onChosenFileChange, false);
+    getSampleInputId('sampleInputButtonZ').addEventListener('change', onChosenFileChange, false);
+    getSampleInputId('sampleInputButtonX').addEventListener('change', onChosenFileChange, false);
+    getSampleInputId('sampleInputButtonC').addEventListener('change', onChosenFileChange, false);
 }
 
 function onChosenFileChange() {
@@ -64,38 +65,43 @@ function loadSample(sampleObj, callback) {
 
 function onSampleLoaded(event) {
 
-    if (chosenFile == 'sampleInputButtonA' ){
-        sounds.soundButtonA = new Howl({
+    if (chosenFile == 'sampleInputButtonQ' ){
+        sounds.soundButtonQ = new Howl({
             urls: [event.target.result]
         });
-    } else if (chosenFile == 'sampleInputButtonB' ) {
-        sounds.soundButtonB = new Howl({
-            urls: [event.target.result]
-        });
-    } else if (chosenFile == 'sampleInputButtonC' ) {
-        sounds.soundButtonC = new Howl({
-            urls: [event.target.result]
-        });
-    } else if (chosenFile == 'sampleInputButtonD' ) {
-        sounds.soundButtonD = new Howl({
+    } else if (chosenFile == 'sampleInputButtonW' ) {
+        sounds.soundButtonW = new Howl({
             urls: [event.target.result]
         });
     } else if (chosenFile == 'sampleInputButtonE' ) {
         sounds.soundButtonE = new Howl({
             urls: [event.target.result]
         });
-    } else if (chosenFile == 'sampleInputButtonF' ) {
-        sounds.soundButtonF = new Howl({
+    } else if (chosenFile == 'sampleInputButtonA' ) {
+        sounds.soundButtonA = new Howl({
             urls: [event.target.result]
         });
-    } else if (chosenFile == 'sampleInputButtonG' ) {
-        sounds.soundButtonG = new Howl({
+    } else if (chosenFile == 'sampleInputButtonS' ) {
+        sounds.soundButtonS = new Howl({
             urls: [event.target.result]
         });
-    } else if (chosenFile == 'sampleInputButtonH' ) {
-        sounds.soundButtonH = new Howl({
+    } else if (chosenFile == 'sampleInputButtonD' ) {
+        sounds.soundButtonD = new Howl({
+            urls: [event.target.result]
+        });
+    } else if (chosenFile == 'sampleInputButtonZ' ) {
+        sounds.soundButtonZ = new Howl({
+            urls: [event.target.result]
+        });
+    } else if (chosenFile == 'sampleInputButtonX' ) {
+        sounds.soundButtonX = new Howl({
+            urls: [event.target.result]
+        });
+    } else if (chosenFile == 'sampleInputButtonC') {
+        sounds.soundButtonC = new Howl({
             urls: [event.target.result]
         });
     }
+
 
 }
