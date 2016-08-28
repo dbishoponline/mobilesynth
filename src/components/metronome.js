@@ -2,7 +2,7 @@ document.getElementById('start').addEventListener('click', click);
 document.getElementById('stop').addEventListener('click', stop);
 
 var sound = new Howl({
-    urls: ['soundSamples/tick.wav']
+    urls: ['../sounds/tick.wav']
 
 });
 

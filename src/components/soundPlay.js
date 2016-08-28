@@ -1,27 +1,27 @@
 const sounds = {
     soundButtonA: new Howl({
-        urls: ['soundSamples/A/bubbles.mp3']
+        urls: ['../sounds/A/bubbles.mp3']
     }),
     soundButtonB: new Howl({
-        urls: ['soundSamples/A/clay.mp3']
+        urls: ['../sounds/A/clay.mp3']
     }),
     soundButtonC: new Howl({
-        urls: ['soundSamples/A/confetti.mp3']
+        urls: ['../sounds/A/confetti.mp3']
     }),
     soundButtonD: new Howl({
-        urls: ['soundSamples/A/corona.mp3']
+        urls: ['../sounds/A/corona.mp3']
     }),
     soundButtonE: new Howl({
-        urls: ['soundSamples/A/dotted-spiral.mp3']
+        urls: ['../sounds/A/dotted-spiral.mp3']
     }),
     soundButtonF: new Howl({
-        urls: ['soundSamples/A/flash-1.mp3']
+        urls: ['../sounds/A/flash-1.mp3']
     }),
     soundButtonG: new Howl({
-        urls: ['soundSamples/A/flash-2.mp3']
+        urls: ['../sounds/A/flash-2.mp3']
     }),
     soundButtonH: new Howl({
-        urls: ['soundSamples/A/flash-3.mp3']
+        urls: ['../sounds/A/flash-3.mp3']
     }),
     blackSound: null
 };
