@@ -14,6 +14,6 @@ A React Sequencer application
 
 - [x] Create simple prototype
 - [x] Dockerize the project
-- [] Refactor into React Components
-- [] Integrate Redux (if necessary)
-- [] Revamp UI
+- [ ] Refactor into React Components
+- [ ] Integrate Redux (if necessary)
+- [ ] Revamp UI
