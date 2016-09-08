@@ -28,6 +28,7 @@ const sounds = {
     })
 };
 
+
 document.addEventListener('click', function(event){
     if(event.target.id  === 'buttonQ' || event.target.id  === 'buttonQ-letter'){
         sounds.soundButtonQ.play();
