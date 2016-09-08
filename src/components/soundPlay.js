@@ -1,30 +1,30 @@
 const sounds = {
     soundButtonQ: new Howl({
-        urls: ['soundSamples/A/bubbles.mp3']
+        urls: ['/sounds/A/bubbles.mp3']
     }),
     soundButtonW: new Howl({
-        urls: ['soundSamples/A/clay.mp3']
+        urls: ['/sounds/A/clay.mp3']
     }),
     soundButtonE: new Howl({
-        urls: ['soundSamples/A/confetti.mp3']
+        urls: ['/sounds/A/confetti.mp3']
     }),
     soundButtonA: new Howl({
-        urls: ['soundSamples/A/corona.mp3']
+        urls: ['/sounds/A/corona.mp3']
     }),
     soundButtonS: new Howl({
-        urls: ['soundSamples/A/dotted-spiral.mp3']
+        urls: ['/sounds/A/dotted-spiral.mp3']
     }),
     soundButtonD: new Howl({
-        urls: ['soundSamples/A/flash-1.mp3']
+        urls: ['/sounds/A/flash-1.mp3']
     }),
     soundButtonZ: new Howl({
-        urls: ['soundSamples/A/flash-2.mp3']
+        urls: ['/sounds/A/flash-2.mp3']
     }),
     soundButtonX: new Howl({
-        urls: ['soundSamples/A/flash-3.mp3']
+        urls: ['/sounds/A/flash-3.mp3']
     }),
     soundButtonC: new Howl({
-        urls: ['soundSamples/A/glimmer.mp3']
+        urls: ['/sounds/A/glimmer.mp3']
     })
 };
 
@@ -57,39 +57,39 @@ console.log(pressedKey);
 
     if(pressedKey == 113){
         sounds.soundButtonQ.play();
-        document.getElementById('buttonQ').style.backgroundImage = "url('./images/button_pressed.png')";
-        setTimeout(function (){document.getElementById('buttonQ').style.backgroundImage = "url('./images/button_default.png')"},lightButtonTime);
+        document.getElementById('buttonQ').style.backgroundImage = "url('/images/button_pressed.png')";
+        setTimeout(function (){document.getElementById('buttonQ').style.backgroundImage = "url('/images/button_default.png')"},lightButtonTime);
     } else if (pressedKey == 119) {
         sounds.soundButtonW.play();
-        document.getElementById('buttonW').style.backgroundImage = "url('./images/button_pressed.png')";
-        setTimeout(function (){document.getElementById('buttonW').style.backgroundImage = "url('./images/button_default.png')"},lightButtonTime);
+        document.getElementById('buttonW').style.backgroundImage = "url('/images/button_pressed.png')";
+        setTimeout(function (){document.getElementById('buttonW').style.backgroundImage = "url('/images/button_default.png')"},lightButtonTime);
     } else if (pressedKey == 101) {
         sounds.soundButtonE.play();
-        document.getElementById('buttonE').style.backgroundImage = "url('./images/button_pressed.png')";
-        setTimeout(function (){document.getElementById('buttonE').style.backgroundImage = "url('./images/button_default.png')"},lightButtonTime);
+        document.getElementById('buttonE').style.backgroundImage = "url('/images/button_pressed.png')";
+        setTimeout(function (){document.getElementById('buttonE').style.backgroundImage = "url('/images/button_default.png')"},lightButtonTime);
     } else if (pressedKey == 97) {
         sounds.soundButtonA.play();
-        document.getElementById('buttonA').style.backgroundImage = "url('./images/button_pressed.png')";
-        setTimeout(function (){document.getElementById('buttonA').style.backgroundImage = "url('./images/button_default.png')"},lightButtonTime);
+        document.getElementById('buttonA').style.backgroundImage = "url('/images/button_pressed.png')";
+        setTimeout(function (){document.getElementById('buttonA').style.backgroundImage = "url('/images/button_default.png')"},lightButtonTime);
     } else if (pressedKey == 115) {
         sounds.soundButtonS.play();
-        document.getElementById('buttonS').style.backgroundImage = "url('./images/button_pressed.png')";
-        setTimeout(function (){document.getElementById('buttonS').style.backgroundImage = "url('./images/button_default.png')"},lightButtonTime);
+        document.getElementById('buttonS').style.backgroundImage = "url('/images/button_pressed.png')";
+        setTimeout(function (){document.getElementById('buttonS').style.backgroundImage = "url('/images/button_default.png')"},lightButtonTime);
     } else if (pressedKey == 100) {
         sounds.soundButtonD.play();
-        document.getElementById('buttonD').style.backgroundImage = "url('./images/button_pressed.png')";
-        setTimeout(function (){document.getElementById('buttonD').style.backgroundImage = "url('./images/button_default.png')"},lightButtonTime);
+        document.getElementById('buttonD').style.backgroundImage = "url('/images/button_pressed.png')";
+        setTimeout(function (){document.getElementById('buttonD').style.backgroundImage = "url('/images/button_default.png')"},lightButtonTime);
     } else if (pressedKey == 122) {
         sounds.soundButtonZ.play();
-        document.getElementById('buttonZ').style.backgroundImage = "url('./images/button_pressed.png')";
-        setTimeout(function (){document.getElementById('buttonZ').style.backgroundImage = "url('./images/button_default.png')"},lightButtonTime);
+        document.getElementById('buttonZ').style.backgroundImage = "url('/images/button_pressed.png')";
+        setTimeout(function (){document.getElementById('buttonZ').style.backgroundImage = "url('/images/button_default.png')"},lightButtonTime);
     } else if (pressedKey == 120) {
         sounds.soundButtonX.play();
-        document.getElementById('buttonX').style.backgroundImage = "url('./images/button_pressed.png')";
-        setTimeout(function (){document.getElementById('buttonX').style.backgroundImage = "url('./images/button_default.png')"},lightButtonTime);
+        document.getElementById('buttonX').style.backgroundImage = "url('/images/button_pressed.png')";
+        setTimeout(function (){document.getElementById('buttonX').style.backgroundImage = "url('/images/button_default.png')"},lightButtonTime);
     } else if (pressedKey == 99) {
         sounds.soundButtonC.play();
-        document.getElementById('buttonC').style.backgroundImage = "url('./images/button_pressed.png')";
-        setTimeout(function (){document.getElementById('buttonC').style.backgroundImage = "url('./images/button_default.png')"},lightButtonTime);
+        document.getElementById('buttonC').style.backgroundImage = "url('/images/button_pressed.png')";
+        setTimeout(function (){document.getElementById('buttonC').style.backgroundImage = "url('/images/button_default.png')"},lightButtonTime);
     }
 });

@@ -5,7 +5,6 @@ body, html {
 
 h1 {
     text-align: center;
-    line-height: 60px;
     color: white;
 }
 
@@ -14,16 +13,17 @@ h1:hover {
 }
 
 #buttonQ, #buttonW, #buttonE, #buttonA, #buttonS, #buttonD, #buttonZ, #buttonX, #buttonC {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 10px;
-    background-image: url("./images/button_default.png");
-    background-size: 150px;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  padding: 10px;
+  background-image: url("/images/button_default.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 10px 0 10px;
 }
 
 #buttonQ:active, #buttonW:active, #buttonE:active, #buttonA:active, #buttonS:active, #buttonD:active, #buttonZ:active, #buttonX:active, #buttonC:active {
-    background-image: url("./images/button_pressed.png");
+    background-image: url("/images/button_pressed.png");
 }
