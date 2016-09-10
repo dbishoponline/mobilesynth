@@ -4,6 +4,9 @@
   "description": "A React Sequencer application",
   "main": "src/index.html",
   "scripts": {
+    "start": "npm install; docker-compose up -d; open 'http://localhost:8081'",
+    "stop": "docker-compose down",
+    "restart": "docker-compose up -d",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
