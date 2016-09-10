@@ -1,0 +1,19 @@
+{
+  "name": "mobilesynth",
+  "version": "1.0.0",
+  "description": "A React Sequencer application",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbishoponline/mobilesynth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbishoponline/mobilesynth/issues"
+  },
+  "homepage": "https://github.com/dbishoponline/mobilesynth#readme"
+}
