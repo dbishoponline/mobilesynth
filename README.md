@@ -5,18 +5,18 @@ A React Sequencer application
 ## Install & Start
 
 1. Install Docker - <https://www.docker.com/products/overview#/install_the_platform>
-2. $ git clone <https://github.com/dbishoponline/mobilesynth.git>
-3. $ cd mobilesynth
-4. $ npm start
+2. `$ git clone <https://github.com/dbishoponline/mobilesynth.git>`
+3. `$ cd mobilesynth`
+4. `$ npm start`
 5. A browser window will open pointing to <http://localhost:8081>
 
 ## Stop
 
-1. $ npm stop
-2.
+`$ npm stop`
+
 ## Restart
 
-1. $ npm restart
+`$ npm restart`
 
 
 ## Todo
